@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://huangyingwen.github.io/sitemap.xml 
