@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Huangyw Blog</title>
+    <link>http://example.org/categories/</link>
+    <description>Recent content in Categories on Huangyw Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh_CN</language>
+    <lastBuildDate>Mon, 17 Jul 2023 16:00:00 +0800</lastBuildDate><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>emacs</title>
+      <link>http://example.org/categories/emacs/</link>
+      <pubDate>Mon, 17 Jul 2023 16:00:00 +0800</pubDate>
+      
+      <guid>http://example.org/categories/emacs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,51 @@
 baseURL: 'http://example.org/'
 languageCode: 'zh_CN'
-title: 'My New Hugo Site'
-theme: 'hyde'
+title: 'Huangyw Blog'
+theme: 'hugo-nuo'
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+enableRobotsTXT: true
+PygmentsCodeFences: true
+canonifyurls: true
+disqusShortname: disqus_shortname
+googleAnalytics: UA-XXXXXXXX-X
+copyright: >-
+  © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0
+  International License，please give source if you wish to quote or reproduce.
+menu:
+  main:
+    - name: Home
+      weight: 10
+      identifier: home
+      url: /
+    - name: Works
+      weight: 20
+      identifier: works
+      url: 'https://github.com/huangyingwen'
+    - name: Tags
+      weight: 30
+      identifier: tags
+      url: /tags/
 params:
-  themeColor: "theme-base-08"
-  layoutReverse: true
+  author: Ritchie Zhu
+  bg: images/grey-prism.svg
+  avatar: images/avatar.png
+  seotitle: huangyw blog
+  description: >-
+    Hugo is one of the most popular open-source static site generators. With its
+    amazing speed and flexibility, Hugo makes building websites fun again.
+  paginate: 10
+  email: name@domain.com
+  github: huangyingwen
+  twitter: twitter_username
+  linkedin: linkedin_username
+  weibo: weibo_username
+  wechat: images/qrcode.jpg
+  changyan: false
+  changyanId: cyt3toRiB
+  changyanConf: prod_0908b1cb9a581501753cce1ed074dbe3
+  googleSiteVerification: _moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc
+  msValidate: 22596E34341DD1D17D6022C44647E587
